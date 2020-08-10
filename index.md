@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# JS Object Literals; The DOM
 
-You can use the [editor on GitHub](https://github.com/stephon518/JS-Object-Literals-The-DOM/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Object Literals
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Objects literals group together a set of variables and functions to create a model of a something you would recognize from the real world. In an object, variables and functions take on new names.
 
-### Markdown
+Document Object Model
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/stephon518/JS-Object-Literals-The-DOM/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The browser represents the page using a DOM tree. DOM trees have four types of nodes: document nodes,
+element nodes, attribute nodes, and text nodes. You can select element nodes by their id or cl ass
+attributes, by tag name, or using CSS selector syntax. Whenever a DOM query can return more than one
+node, it will always return a Nadeli st.
+From an element node, you can access and update its content using properties such as textContent and
+i nnerHTML or using DOM manipulation techniques.
+An element node can contain multiple text nodes and child elements that are siblings of each other.
+In older browsers, implementation of the DOM is inconsistent (and is a popular reason for using jQuery).
+Browsers offer tools for viewing the DOM tree.
